@@ -1,0 +1,26 @@
+body {
+  background-color: lightgray;
+}
+
+#todolist {
+  background-color: white;
+  color: gray;
+  width: 60%;
+  margin: 10em auto;
+  box-shadow: 0 0 5px;
+}
+
+.item {
+  border-bottom: 1px solid lightgray;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+}
+
+i {
+  margin-left: auto;
+}
+
+p {
+  margin: 0 0 0 1em;
+}
