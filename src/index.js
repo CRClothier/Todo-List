@@ -1,6 +1,7 @@
 import './style.css';
+import checkbox from './completed.js';
 
-const items = [
+let items = [
   {
     description: 'Eat hamburgers',
     completed: false,
@@ -28,13 +29,25 @@ const compare = (a, b) => {
   return 0;
 };
 
+const getLocalData = () => {
+  if (localStorage.getItem('localData')) {
+    items = JSON.parse(localStorage.localData);
+  }
+};
+
 const list = document.getElementById('todolist');
 
 const createList = () => {
   items.sort(compare);
   items.forEach((item) => {
-    list.innerHTML += `<div class="item"><input type="checkbox"><p>${item.description}</p><i class="fas fa-ellipsis-v"></i></div>`;
+    let checked = '';
+    if (item.completed) {
+      checked = ' checked';
+    }
+    list.innerHTML += `<div class="item"><input type="checkbox" class="tick" name="${item.index}"${checked}><p>${item.description}</p><i class="fas fa-ellipsis-v"></i></div>`;
   });
 };
 
+getLocalData();
 createList();
+checkbox(items);
