@@ -17,7 +17,7 @@
     "webpack-dev-server": "^4.6.0"
   },
   "name": "todo-list",
-  "description": "",
+  "description": "The learning goals of this project are to practice using ES6 standards in Javascript and to implement Webpack.  This project is recreating part of a todolist app.",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -603,5 +603,6 @@
   "bugs": {
     "url": "https://github.com/CRClothier/Todo-List/issues"
   },
-  "homepage": "https://github.com/CRClothier/Todo-List#readme"
+  "homepage": "https://github.com/CRClothier/Todo-List#readme",
+  "main": "script.js"
 }
