@@ -3,7 +3,7 @@ const saveLocalData = (items) => {
   localStorage.localData = localData;
 };
 
-export default function addCheckboxEvents(items) {
+function addCheckboxEvents(items) {
   const checkboxes = document.querySelectorAll('.tick');
   checkboxes.forEach((checkbox, index) => {
     checkbox.addEventListener('change', () => {
@@ -12,3 +12,5 @@ export default function addCheckboxEvents(items) {
     });
   });
 }
+
+export { saveLocalData, addCheckboxEvents };

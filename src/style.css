@@ -2,7 +2,7 @@ body {
   background-color: lightgray;
 }
 
-#todolist {
+.todolist {
   background-color: white;
   color: gray;
   width: 60%;
