@@ -36,6 +36,6 @@
   "bugs": {
     "url": "https://github.com/CRClothier/Todo-List/issues"
   },
-  "homepage": "https://github.com/CRClothier/Todo-List#readme",
-  "main": "script.js"
+  "homepage": "https://github.com/CRClothier/Todo-List",
+  "main": "main.js"
 }
