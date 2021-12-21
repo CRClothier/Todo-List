@@ -1,6 +1,6 @@
 # Todo-List
 
-The learning goals of this project are to practice using ES6 standards in Javascript and to implement Webpack.  This project is recreating part of a todolist app.
+The learning goals of this project are to practice using ES6 standards in Javascript and to implement Webpack.  This project is recreating part of a todolist app called minimalist.
 
 ## Buit With
 
